@@ -1,0 +1,42 @@
+nav {
+	color: #666 !important;
+	border: 0px;
+	box-shadow: 0 0 0 0 !important;
+}
+
+#brand{
+	font-size: 16px;
+	position: relative;
+	bottom: 4px;
+}
+
+#menu{
+	background: transparent !important;
+}
+
+.fondoBlanco {
+	background: url(../imagenes/fondo-blanco.png) !important;
+	color: #fff !important;
+}
+
+.fondoBlancoFuerte {
+	background: url(../imagenes/fondo-blanco-fuerte.png) !important;
+	color: #fff !important;
+}
+
+.transparente {
+	background: transparent !important;
+}
+
+.panel-heading {
+	border-bottom: 1px solid #666 !important;
+}
+.panel-footer {
+	border-top: 1px solid #666 !important;
+}
+.file-footer-caption{
+	color: #fff !important;
+}
+.file-preview-frame{
+	background: #000 !important;
+}

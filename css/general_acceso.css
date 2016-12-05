@@ -1,0 +1,127 @@
+@font-face {
+	font-family: "B20";
+	src: url("../fuentes/B20Sans.ttf");
+}
+* {
+	font-family: B20;
+}
+body {
+	background: url(../imagenes/pasto.jpg) top left;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100%;
+}
+#logo {
+	width: 170px;
+	float: right;
+}
+#emexico {
+	width: 170px;
+	float: left;
+}
+.user {
+	width: 100px;
+}
+
+.well {
+	height: 80px;
+	border-radius: 0px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	color: #ddd !important;
+	
+}
+::-moz-placeholder { /* Firefox 19+ */
+	color: #ddd !important;
+	
+}
+:-ms-input-placeholder { /* IE 10+ */
+	color: #ddd !important;
+	
+}
+:-moz-placeholder { /* Firefox 18- */
+	color: #ddd !important;
+}
+
+
+.border {
+	/*border: 1px solid #ddd !important;*/
+	border: 0px !important;
+	box-shadow: 0 0 0 0 !important;
+}
+#input {
+	font-family: arial !important;
+}
+label{
+	font-size: 14px;
+	color: #fff !important;
+}
+input[type=text],input[type=password],input[type=email],select,select option{
+	font-size: 13px !important;
+	text-align: left;
+}
+
+.form-control:focus {
+	border-color: #fff !important;
+	box-shadow: 0 0 15px 3px #002 !important;
+}
+
+.empresas {
+	border-bottom: 1px dotted #666;
+	border-radius: 5px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	min-height: 175px;
+}
+
+.logo {
+	width: 90%;
+	height: 120px;
+	margin: 0px auto;
+	display: block;
+}
+
+.green-circle {
+	width: 48px;
+	height: 48px;
+	border-radius: 48px;
+	display: table;
+	background: #04B486;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.violet-circle {
+	width: 48px;
+	height: 48px;
+	border-radius: 48px;
+	display: table;
+	background: #B4045F;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.totales {
+	display: table-cell;
+	vertical-align: middle;
+	color: #fff;
+	position: relative;
+	top: 2px;
+	left: 1px;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.detalles {
+	padding-top: 1px;
+}
+
+.px {
+	width: 22px !important;
+	height: 22px !important;
+}

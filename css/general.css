@@ -1,0 +1,94 @@
+@font-face {
+	font-family: "Digital dream Narrow";
+	src: url("../fuentes/Digital dream Narrow.ttf");
+}
+html{
+	height: 100%;
+}
+body {
+	background: url(../imagenes/DSC_0347.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+}
+#logo {
+	width: 170px;
+	float: right;
+}
+#emexico {
+	width: 170px;
+	float: left;
+}
+.user {
+	width: 100px;
+}
+.well {
+	height: 80px;
+	border-radius: 0px;
+}
+.vcenter {
+	position: absolute;
+	left: 0%;
+	top: 50%;
+	transform: translate(0%, -50%);
+	-webkit-transform: translate(0%, -50%);
+}
+.vcenter input[type=text],.vcenter input[type=password] {
+	font-size: 20px !important;
+	width: 150%;
+	color: #fff;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	color: #ddd !important;
+	
+}
+::-moz-placeholder { /* Firefox 19+ */
+	color: #ddd !important;
+	
+}
+:-ms-input-placeholder { /* IE 10+ */
+	color: #ddd !important;
+	
+}
+:-moz-placeholder { /* Firefox 18- */
+	color: #ddd !important;
+	
+}
+#titulo{
+	color: #fff;
+	position: absolute;
+	right: 30%;
+	top: 50%;
+	transform: translate(0%, -50%);
+	-webkit-transform: translate(0%, -50%);
+	text-shadow: 2px 2px 3px #000;
+	padding-left: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-left: 1px solid #fff;	
+}
+#titulo h5,#titulo h6 {
+	color: #fff;
+}
+#reloj {
+	font-family: Digital dream Narrow !important;
+	font-size: 50px;	
+}
+#entrar{
+	background: transparent;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	width: 150%;
+	color: #fff;
+	font-size: 12px;
+	padding: 5px;
+	margin-top: 20px;
+}
+.alertas {
+	display: none;
+}
+
+
+
